@@ -1,0 +1,75 @@
+
+.rules {
+	width: 100%;
+	height: 100px;
+	padding: 50px;
+	text-align: center;
+	color: white;
+	transition: color 5s, font-size 1s;
+	transition-delay: 1s;
+	transition-duration: 8s;
+}
+
+.rules h1 {
+	display: none;
+}
+
+.rules:hover {
+	color: lightpink;
+	font-size: 36px;
+}
+
+.rules:hover h1 {
+	display: block;
+}
+
+.background {
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+}
+
+.effect {
+	width: 40%;
+	height: 182px;
+	display: inline-block;
+}
+
+.effect h2 {
+	text-align: center;
+	color: white;
+	background-color: white;
+	transition: background-color 5s;
+	transition-delay: 2s;
+}
+
+.effect:hover h2 {
+	background-color: lightblue;
+	color:white;
+}
+
+.hint {
+	width: 100%;
+	height: 78px;
+	padding: 50px;
+	text-align: center;
+	color: white;
+	transition: color 6s, font-size 2s;
+	transition-delay: 5s;
+	transition-duration: 2s;
+}
+
+.hint h1 {
+	display: none;
+}
+
+.hint:hover {
+	color: red;
+	font-size: 26px;
+}
+
+.hint:hover h1 {
+	display: block;
+}
+
+
