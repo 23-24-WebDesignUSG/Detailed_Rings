@@ -1,0 +1,83 @@
+/* This code is used to define the properties of the text under this css code. It also decribes what will be changing under the transition code, which would be its size. Its size would gradually get bigger, until it hits the font size that its coded to be. */
+
+.introduction {
+	width: 100%;
+	height: 100px;
+	padding: 50px;
+	text-align: center;
+	color: forestgreen;
+	transition:font-size 2s;
+	transition-delay: 1s;
+	transition-duration: 8s;
+}
+/* This code shows that it would display nothing. */
+.introduction h1 {
+	display: none;
+}
+
+/* This code shows that when you hover this areas the text would show up, and will turn the color of forestgreen. It would also have its default size after the transition as 36px */
+.introduction:hover {
+	font-size:38px;
+
+}
+/* This allows this text to display as a block element allowing this text to be the only text shown in this line. Its like a line-break.*/
+.introduction:hover h1 {
+	display: block;
+}
+
+
+/* This div class sub text just allows the subtexts to have some style. The code under this div class includes its color to be lightgreen and its text size to be 26px, and so forth. */
+.subtext {
+	font-family:Arial;
+	font-size:26px;
+	color:lightgreen;
+}
+
+/* This div class allows the paragraphs to have a font-size of 18px as usually the size of a paragraph is similar. Also under this div class the paragraphs have a font style of copse.*/ 
+.information {
+	font-size:18px;
+	font-family:copse;
+}
+
+/* Keyframes allow animations to occur. It allows a style to gradually change to a different style, or what happens at a certain point. In this keyframe a photo is changing from one photo to another over a certain amount of time. */
+
+@keyframes introductionimage {
+	0% {animation-delay: 3s}
+	25% {background-image: url("bad.png"); width:330px; height:153px;}
+	50% {animation-delay: 5s}
+}
+
+/* This code defines the properties/styles of the first photo that is shown. 
+	the animation*/
+.firstimage {
+
+	background-image: url("good.jpg");
+	image-style:center;
+	height:239px;
+	width: 211px;
+	animation-name:introductionimage;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+/*This keyframe allows a this animation to occur. In which a photo would change to another photo and so forth until all photos are shown. When this happens the whole process starts over again and again. */
+@keyframes bad {
+	0% {background-image: url("photo.jpg"); width: 330px; height: 153px;}
+	25% {animation-delay: 3s}
+	50% {background-image: url("hack.jpg")}
+	75% {animation-delay: 3s}
+	100% {background-image: url("comments.jpg"); width:284px; height:178px}
+}
+
+/*This gives the style of the first photo I notice that the photo has a specific width and height that allows the photo to show up one in the frame. So its defined below this comment.*/
+.baddigital {
+	background-image: url("hate.jpg"); width: 313px; height: 161px ; 
+	image-style:center;
+	height: 161px;
+	width: 313px;
+	animation-name:bad;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
