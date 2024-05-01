@@ -7,7 +7,7 @@
 <!-- the code below this comment is used to give the browser instruction about how to control the scaling and dimensions of the page.-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- This code below connects the html code with the css code.-->
-	<link rel="stylesheet" type="text/css" href="nora'squiz.css">
+	<link rel="stylesheet" type="text/css" href="noraquiz.css">
 	<title>Quiz</title>
 <!-- The code bellow is the reason I can have a galaxy background.-->
 <style>
@@ -485,7 +485,7 @@ var points = 0
 		var k = document.getElementById("mystery4").checked;
 
 		if (k) {
-			points = points +10;
+			points = points +1;
 		}
 
 		var q = document.getElementById("middle1").checked;
@@ -514,7 +514,7 @@ var points = 0
 var h= document.getElementById("mystery1").checked;
 
 		if (h) {
-			points = points + 8;
+			points = points + 1;
 		}
 
 		var i = document.getElementById("mystery2").checked;
@@ -539,7 +539,7 @@ var h= document.getElementById("mystery1").checked;
 		var x= document.getElementById("classic1").checked;
 
 		if (x) {
-			points = points + 13;
+			points = points + 1;
 		}
 
 		var w = document.getElementById("classic2").checked;
@@ -569,7 +569,7 @@ var h= document.getElementById("mystery1").checked;
 		var f = document.getElementById("favorite2").checked;
 
 		if (f) {
-			points = points + 7;
+			points = points + 1;
 		}
 
 		var O = document.getElementById("favorite3").checked;
@@ -585,52 +585,54 @@ var h= document.getElementById("mystery1").checked;
 			points = points +1;
 		}
 
-		if (2<points<5) {
+		alert(points);
+
+		if (points<5) {
 			alert("You are a scorpio!");
 		}
 
-		if (5<points<8 ) {
+		if (5<=points && points<7) {
 			alert("You are a leo");
 		}
 
 
-		if (8<points<11) {
+		if (7<=points && points<10) {
 			alert("You are a capicorn");
 		}
 
-		if (11<points<14) {
+		if (10<=points && points<13) {
 			alert("You are a aquarius");
 		}
 
-		if (14<points<17) {
+		if (13<=points && points<16) {
 			alert("You are a libra");
 		}
-		if (17<points<20) {
+		if (16<=points && points<19) {
 			alert("You are a gemini");
 		}
 
-		if (20<points<23) {
+		if (19<= points && points<22) {
 			alert("You are a aries");
 		}
 
-		if (24<points<27) {
+		if (22<=points && points<25) {
 			alert("You are a virgo");
 		}
 
-		if (27<points<30) {
+		if (25<=points && points<28) {
 			alert("You are a sagitarius");
 		}
 
-		if (30<points<33) {
+		if (28<=points && points<31) {
 			alert("You are a taurus");
 		}
 
-		if (33<points<37) {
+		if (31<=points && points<=34) {
 			alert("You are a pisces ");
 		}
 
 
-		if (37<points<49) {
+		if (34<points) {
 			alert("You are a cancer");
 		}
 }
