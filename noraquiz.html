@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<!-- head is meta data giving which gives data about the HTML page. The code under head doesn't show up on the page. -->
+<head>
+<!-- UTF-8 is a length encoding that makes the code into readable text.-->
+	<meta charset="utf-8">
+<!-- the code below this comment is used to give the browser instruction about how to control the scaling and dimensions of the page.-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- This code below connects the html code with the css code.-->
+	<link rel="stylesheet" type="text/css" href="nora'squiz.css">
+	<title>Quiz</title>
+<!-- The code bellow is the reason I can have a galaxy background.-->
+<style>
+	body{
+		background-image:url("galaxy.jpg")
+	}
+</style>
+</head>
+<!-- The body tag is all the text and data that shows up on the pag-->
+<body>
+<center>
+<!--This div class allows the header be the color white and so forth-->
+<div class="text">
+<!--h1 tag is used for text that will be the header-->
+<h1>Pick Your Favorite Book, And I Will Tell You What Your Zodiac Sign Is </h1>
+<!--h3 is smaller text.Its around the same size of a paragraph size.-->
+<h3> Nora. G</h3>
+</div>
+<div class="zodiac">
+<!--br tag allows line breaks between text. So, that one text is not right bellow another.-->
+	<br>
+<!--The <p> tag just means the text will show up as a paragraph -->
+	<p>           </p>
+	<br>
+</div>
+
+<!--The form tag is used to make an interactive website. It allows the server to collect data from the user. It is commonly used to make forms, quizzes, etc.-->
+<form>
+<div class="question1">
+<div class="text">
+<!--This code just means that its a subtext header which is smaller than a main header. It has a font size of 23px-->
+<h2 style="font-size: 23px;"> Pick Your Favorite Science Fiction Book </h2>
+</div>
+
+<!--This just defines the photo--> 
+		<label for="option1">a <img src="download-3.jpg"> </label>
+		<!-- Radio inputs allow the website to have a single  selection from the book options  -->
+	<!--The input tag allows the user to enter data-->
+		<input id="option1" type="radio" name="question1">
+
+		<label for="option2">b<img src="13079982.jpg" width="200"px height="272"px> </label>
+		<input id="option2" type="radio" name="question1">
+		<br>
+		<br>
+
+		<label for="option3">c<img src="download-18.jpg"></label>
+		<input id="option3" type="radio" name="question1">
+
+		<label for="option4">d<img src="44767458.jpg"width="200"px height="272"px> </label>
+		<input id="option4" type="radio" name="question1">
+		<br>
+		<br>
+
+
+</div>
+<div class="question2">
+<div class="text">
+<h2 style="font-size: 23px;"> Pick Your Favorite Historical Fiction Novel </h2>
+</div>
+		<label for="questionselection1">m <img src="download-11.jpg"> </label>
+		<input id="questionselection1" type="radio" name="question2">
+
+		<label for="questionselection2">n<img src="download-8.jpg"> </label>
+		<input id="questionselection2" type="radio" name="question2">
+		<br>
+		<br>
+
+		<label for="questionselection3">o<img src="download-19.jpg"></label>
+		<input id="questionselection3" type="radio" name="question2">
+
+		<label for="questionselection4">p<img src="download-17.jpg"> </label>
+		<input id="questionselection4" type="radio" name="question2">
+		<br>
+		<br>
+</div>
+<div class="question3">
+<div class="text">
+<h2 style="font-size: 23px;"> Pick Your Favorite Murder/Mystery Book </h2>
+</div>
+<label for="mystery1">h <img src="download-2.jpg"> </label>
+		<input id="mystery1" type="radio" name="question3">
+
+		<label for="mystery2"> i <img src="download-9.jpg"> </label>
+		<input id="mystery2" type="radio" name="question3">
+		<br>
+		<br>
+
+		<label for="mystery3"> j <img src="download-7.jpg"></label>
+		<input id="mystery3" type="radio" name="question3">
+
+		<label for="mystery4"> k <img src="download-13.jpg"> </label>
+		<input id="mystery4" type="radio" name="question3">
+
+</div>
+<div class="question4">
+<div class="text">
+<h2 style="font-size: 23px;"> Pick Your Favorite Middle School Book </h2>
+</div>
+<label for="middle1">q <img src="ain't.jpg" width="200"px height="272"px> </label>
+		<input id="middle1" type="radio" name="question3">
+
+		<label for="middle2">r<img src="download-20.jpg"> </label>
+		<input id="middle2" type="radio" name="question3">
+		<br>
+		<br>
+
+		<label for="middle3">s<img src="download-15.jpg"></label>
+		<input id="middle3" type="radio" name="question3">
+
+		<label for="middle4">t<img src="download-16.jpg"> </label>
+		<input id="middle4" type="radio" name="question3">
+
+</div>
+
+<div class="question5">
+<div class="text">
+<h2 style="font-size: 23px;"> Pick Your Favorite Classic Book </h2>
+</div>
+<label for="classic1"> x <img src="download-6.jpg"> </label>
+		<input id="classic1" type="radio" name="question3">
+
+		<label for="classic2"> w <img src="download-4.jpg"> </label>
+		<input id="classic2" type="radio" name="question5">
+		<br>
+		<br>
+
+		<label for="classic3"> y <img src="download.png"></label>
+		<input id="classic3" type="radio" name="question5">
+
+		<label for="classic4"> z <img src="download.jpg"> </label>
+		<input id="classic4" type="radio" name="question5">
+
+</div>
+
+<div class="question6">
+<div class="text">
+<h2 style="font-size: 23px;"> Pick The Book You Would Read Again </h2>
+</div>
+<label for="favorite1"> e <img src="download-14.jpg"> </label>
+		<input id="favorite1" type="radio" name="question6">
+
+		<label for="favorite2"> f <img src="download-12.jpg"> </label>
+		<input id="favorite2" type="radio" name="question6">
+		<br>
+		<br>
+		<label for="favorite3"> O <img src="download-22.jpg" width="200"px heigh="272"px></label>
+		<input id="favorite3" type="radio" name="question6">
+
+		<label for="favorite4"> u <img src="shopping-2.webp" width="200"px heigh="272"px>  </label>
+		<input id="favorite4" type="radio" name="question6">
+	<br>
+	<br>
+
+<!--This gives the submit button-->
+<input type="button" name="submit" onclick="getresults()" value="SUBMIT">
+
+</div>
+		<br>
+		<br>
+	</form>
+
+	<p id="results">
+
+
+	</p>
+
+<div class="text">
+<h2> Citations
+</h2>
+</div>
+<!-- This is the code to make hyperlinks-->
+<a href="https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/leo-personality-traits-all-the-secrets-you-need-to-know/articleshow/84131853.cms">
+<h3 style="color:white">https://timesofindia.indiatimes.com/astrology/zodiacs-astrology/leo-personality-traits-all-the-secrets-you-need-to-know/articleshow/84131853.cms
+</h3>
+</a>
+<a href="https://photogallery.indiatimes.com/web-stories/virgo-the-perfectionist-zodiac-sign-personality-traits-decoded/photostory/103165150.cms">
+<h3 style="color:white">https://photogallery.indiatimes.com/web-stories/virgo-the-perfectionist-zodiac-sign-personality-traits-decoded/photostory/103165150.cms  
+</h3>
+</a>
+<a href="https://www.greekmythology.com/Myths/Zodiac/Cancer/cancer.html">
+<h3 style="color:white">
+https://www.greekmythology.com/Myths/Zodiac/Cancer/cancer.html 
+</h3>
+</a>
+<a href="https://www.greekmythology.com/Myths/Zodiac/Taurus/taurus.html">
+<h3 style="color:white">
+https://www.greekmythology.com/Myths/Zodiac/Taurus/taurus.html 
+</h3>
+</a>
+<a href="https://www.britannica.com/topic/zodiac">
+<h3 style="color:white">
+https://www.britannica.com/topic/zodiac 
+</h3>
+</a>
+<a href="https://www.greekmythology.com/Myths/Zodiac/Scorpio/scorpio.html">
+<h3 style="color:white">
+https://www.greekmythology.com/Myths/Zodiac/Scorpio/scorpio.html 
+</h3>
+</a>
+<a href="https://www.bodhi.app/blog/everything-youve-ever-needed-to-know-about-gemini-zodiac-signs/
+">
+<h3 style="color:white">
+https://www.bodhi.app/blog/everything-youve-ever-needed-to-know-about-gemini-zodiac-signs/
+</h3>
+</a>
+<a href="https://123babybox.com/blogs/horoscope/7-interesting-traits-you-need-to-know-about-aries-babies">
+<h3 style="color:white">
+https://123babybox.com/blogs/horoscope/7-interesting-traits-you-need-to-know-about-aries-babies
+</h3> 
+</a>
+<a href="https://www.amazon.com/Then-She-Was-Gone-Novel/dp/1501154656">
+<h3 style="color:white">
+https://www.amazon.com/Then-She-Was-Gone-Novel/dp/1501154656 
+</h3>
+</a>
+<a href="https://www.2spirits.com/capricorn">
+<h3 style="color:white">
+https://www.2spirits.com/capricorn
+</h3> 
+</a>
+<a href="https://www.timesnownews.com/astrology/sagittarius-horoscope-today-december-12-2023-you-may-experience-a-sense-of-adventure-and-optimism-at-work-article-105909705 
+">
+<h3 style="color:white">
+https://www.timesnownews.com/astrology/sagittarius-horoscope-today-december-12-2023-you-may-experience-a-sense-of-adventure-and-optimism-at-work-article-105909705 
+</h3>
+</a>
+<a href="https://astrotalk.com/astrology-blog/libra-balancing-relationships-and-harmony-iatr/
+">
+<h3 style="color:white">
+https://astrotalk.com/astrology-blog/libra-balancing-relationships-and-harmony-iatr/
+</h3>
+</a>
+<a href="https://www.amazon.com/Little-Women-Puffin-Louisa-Alcott/dp/0147514010 
+">
+<h3 style="color:white">
+https://www.amazon.com/Little-Women-Puffin-Louisa-Alcott/dp/0147514010 
+</h3>
+</a>
+<a href="https://www.amazon.com/One-Us-Lying-Karen-McManus/dp/1524714682">
+<h3 style="color:white">
+https://www.amazon.com/One-Us-Lying-Karen-McManus/dp/1524714682 
+</h3>
+</a>
+<a href="https://www.redbubble.com/i/art-board-print/Aquarius-Zodiac-Sign-January-20-to-February-18-by-peterscarfo/137798809.TR477">
+<h3 style="color:white">
+https://www.redbubble.com/i/art-board-print/Aquarius-Zodiac-Sign-January-20-to-February-18-by-peterscarfo/137798809.TR477 
+</h3>
+</a>
+<a href="https://amazon.com/Kill-Mockingbird-Harper-Lee/dp/0446310786 
+">
+<h3 style="color:white">
+https://amazon.com/Kill-Mockingbird-Harper-Lee/dp/0446310786 
+</h3>
+</a>
+<a href="https://www.amazon.com/Night-Diary-Veera-Hiranandani/dp/0735228515">
+<h3 style="color:white">
+https://www.amazon.com/Night-Diary-Veera-Hiranandani/dp/0735228515 
+</h3>
+</a>
+<a href="https://www.amazon.com/Who-Moved-My-Cheese-Mazing/dp/0091816971">
+<h3 style="color:white">
+https://www.amazon.com/Who-Moved-My-Cheese-Mazing/dp/0091816971
+</h3> 
+</a>
+<a href="https://www.goodreads.com/book/show/13079982-fahrenheit-451">
+<h3 style="color:white">
+https://www.goodreads.com/book/show/13079982-fahrenheit-451
+</h3>
+</a>
+<a href="https://www.goodreads.com/book/show/44767458-dune 
+">
+<h3 style="color:white">
+https://www.goodreads.com/book/show/44767458-dune 
+</h3>
+</a>
+<a href="https://www.amazon.com/Five-Feet-Apart-Rachael-Lippincott/dp/1534437339 
+">
+<h3 style="color:white">
+https://www.amazon.com/Five-Feet-Apart-Rachael-Lippincott/dp/1534437339 
+</h3>
+</a>
+<a href="https://www.amazon.com/Face-Milk-Carton/dp/038574238X">
+<h3 style="color:white">
+https://www.amazon.com/Face-Milk-Carton/dp/038574238X 
+</h3>
+</a>
+<a href="https://www.amazon.com/Nothing-More-Tell-Karen-McManus/dp/0593175905 
+"><h3 style="color:white">
+https://www.amazon.com/Nothing-More-Tell-Karen-McManus/dp/0593175905 
+</h3>
+</a>
+<a href="https://www.hachettebookgroup.com/titles/tamara-ireland-stone/every-last-word/9781484705278/lens=little-brown-books-for-young-readers 
+">
+<h3 style="color:white">
+https://www.hachettebookgroup.com/titles/tamara-ireland-stone/every-last-word/9781484705278/?lens=little-brown-books-for-young-readers
+</h3> 
+</a>
+<a href="https://www.artpal.com/x86developersi=269008-5 
+">
+<h3 style="color:white">
+https://www.artpal.com/x86developers?i=269008-5
+</h3> 
+</a>
+<a href="https://www.amazon.com/Giver-Quartet-Lois-Lowry/dp/0544336267 
+">
+<h3 style="color:white">
+https://www.amazon.com/Giver-Quartet-Lois-Lowry/dp/0544336267 
+</h3>
+</a>
+<a href="https://www.amazon.com/Anxious-People-Novel-Fredrik-Backman/dp/1501160834
+">
+<h3 style="color:white">
+https://www.amazon.com/Anxious-People-Novel-Fredrik-Backman/dp/1501160834
+</h3>
+</a>
+<a href="https://www.amazon.com/Two-Keep-Secret-Karen-McManus/dp/1524714720
+">
+<h3 style="color:white">
+https://www.amazon.com/Two-Keep-Secret-Karen-McManus/dp/1524714720
+</h3>
+</a>
+<a href="https://www.amazon.com/Renegades-Marissa-Meyer/dp/1250044669 
+">
+<h3 style="color:white">
+https://www.amazon.com/Renegades-Marissa-Meyer/dp/1250044669 
+</h3>
+</a>
+<a href="https://www.amazon.com/Out-My-Mind-Sharon-Draper/dp/1416971718 
+">
+<h3 style="color:white">
+https://www.amazon.com/Out-My-Mind-Sharon-Draper/dp/1416971718 
+</h3>
+</a>
+<a href="https://www.amazon.com/Girl-Drank-Winner-Newbery-Medal/dp/1616205679 
+">
+<h3 style="color:white">
+https://www.amazon.com/Girl-Drank-Winner-Newbery-Medal/dp/1616205679
+</h3>
+</a>
+<a href="https://www.amazon.com/City-Ember-Deluxe-First-Book/dp/0385371357">
+<h3 style="color:white">
+https://www.amazon.com/City-Ember-Deluxe-First-Book/dp/0385371357 
+</h3>
+</a>
+<a href="https://www.amazon.com/Long-Walk-Water-Based-Story/dp/0547577311 
+">
+<h3 style="color:white">
+https://www.amazon.com/Long-Walk-Water-Based-Story/dp/0547577311
+</h3>
+</a>
+<a href="https://www.amazon.com/Fish-Tree-Lynda-Mullaly-Hunt/dp/0142426423 
+">
+<h3 style="color:white">
+https://www.amazon.com/Fish-Tree-Lynda-Mullaly-Hunt/dp/0142426423 
+</h3>
+</a>
+<a href="https://www.amazon.com/Water-Elephants-Novel-Sara-Gruen/dp/1565125606 
+dv_xsf&AFID=google&CPNG=Entertainment&adgroup=247-1&lnm=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e 
+">
+<h3 style="color:white">
+https://www.amazon.com/Water-Elephants-Novel-Sara-Gruen/dp/1565125606 
+dv_xsf&AFID=google&CPNG=Entertainment&adgroup=247-1&lnm=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e 
+</h3>
+</a>
+<a href="https://www.thriftbooks.com/w/tomorrow-and-tomorrow-and-tomorrow_gabrielle-zevin/31055290/item/51702777/?srsltid=AfmBOorzkWwAItP3QrYOcGRYMQrhm96vuqinRQVKK7EBHOAnPT6bWNeREsI#idiq=51702777&edition=60703919 
+">
+<h3 style="color:white">
+https://www.thriftbooks.com/w/tomorrow-and-tomorrow-and-tomorrow_gabrielle-zevin/31055290/item/51702777/?srsltid=AfmBOorzkWwAItP3QrYOcGRYMQrhm96vuqinRQVKK7EBHOAnPT6bWNeREsI#idiq=51702777&edition=60703919 
+</h3>
+</a>
+<a href="https://www.amazon.com/Boy-Striped-Pajamas-John-Boyne/dp/0385751060 
+">
+<h3 style="color:white">
+<!--This is needed as otherwise the link will not show up-->
+https://www.amazon.com/Boy-Striped-Pajamas-John-Boyne/dp/0385751060 
+</h3>
+</a>
+<a href="https://www.amazon.com/Aint-So-Awful-Falafel/dp/132874096X">
+
+<h3 style="color:white">
+https://www.amazon.com/Aint-So-Awful-Falafel/dp/132874096X
+</h3>
+</a>
+<a href="https://mrwallpaper.com/wallpapers/pretty-purple-digital-art-of-the-cosmos-c3u8trmcf9qdfcgq.html 
+">
+<h3 style="color:white">
+https://mrwallpaper.com/wallpapers/pretty-purple-digital-art-of-the-cosmos-c3u8trmcf9qdfcgq.html 
+</h3>
+</a>
+
+</body>
+
+
+<script type="text/javascript">
+
+//The code bellow is code used to track how much points someone gets for liking one option in each question. //
+
+//var is used to tell JavaScript that you are declaring a variable// 
+		
+//Document.getElementById allow quicker access to elements found in your HTML document by its personal id attribute//
+
+//This code just means that when this photo is clicked the person gets a point and so forth//
+
+function getresults() {
+var points = 0
+
+		var a= document.getElementById("option1").checked;
+
+		if (a) {
+			points = points + 1;
+		}
+
+		var b = document.getElementById("option2").checked;
+
+		if (b) {
+			points = points + 5;
+		}
+
+		var c = document.getElementById("option3").checked;
+
+		if (c) {
+			points = points + 3;
+		}
+
+		var d = document.getElementById("option4").checked;
+
+		if (d) {
+			points = points +9;
+		}
+
+		var m= document.getElementById("questionselection1").checked;
+
+		if (m) {
+			points = points + 12;
+		}
+	
+
+		var n = document.getElementById("questionselection2").checked;
+
+		if (n) {
+			points = points + 6;
+		}
+
+		var o = document.getElementById("questionselection3").checked;
+
+		if (o) {
+			points = points + 5;
+		}
+
+		var p = document.getElementById("questionselection4").checked;
+
+		if (p) {
+			points = points +13;
+
+		}
+
+		var h = document.getElementById("mystery1").checked;
+
+		if (h) {
+			points = points + 8;
+		}
+
+		var i = document.getElementById("mystery2").checked;
+
+		if (i) {
+			points = points + 7;
+		}
+
+		var j = document.getElementById("mystery3").checked;
+
+		if (j) {
+			points = points +4 ;
+		}
+
+		var k = document.getElementById("mystery4").checked;
+
+		if (k) {
+			points = points +10;
+		}
+
+		var q = document.getElementById("middle1").checked;
+
+		if (q) {
+			points = points + 2;
+		}
+
+		var r = document.getElementById("middle2").checked;
+
+		if (r) {
+			points = points + 3;
+		}
+
+		var s = document.getElementById("middle3").checked;
+
+		if (s) {
+			points = points + 6;
+		}
+
+		var t = document.getElementById("middle4").checked;
+
+		if (t) {
+			points = points +12;
+		}
+var h= document.getElementById("mystery1").checked;
+
+		if (h) {
+			points = points + 8;
+		}
+
+		var i = document.getElementById("mystery2").checked;
+
+		if (i) {
+			points = points + 7;
+		}
+
+		var j = document.getElementById("mystery3").checked;
+
+		if (j) {
+			points = points +4 ;
+		}
+
+		var k = document.getElementById("mystery4").checked;
+
+		if (k) {
+			points = points +10;
+		}
+
+
+		var x= document.getElementById("classic1").checked;
+
+		if (x) {
+			points = points + 13;
+		}
+
+		var w = document.getElementById("classic2").checked;
+
+		if (w) {
+			points = points + 3;
+		}
+
+		var y = document.getElementById("classic3").checked;
+
+		if (y) {
+			points = points + 4;
+		}
+
+		var z = document.getElementById("classic4").checked;
+
+		if (z) {
+			points = points +1;
+		}
+
+	var e= document.getElementById("favorite1").checked;
+
+		if (e) {
+			points = points + 5;
+		}
+
+		var f = document.getElementById("favorite2").checked;
+
+		if (f) {
+			points = points + 7;
+		}
+
+		var O = document.getElementById("favorite3").checked;
+
+		if (O) {
+			points = points +9 ;
+		}
+
+		var u = document.getElementById("favorite4").checked;
+//Below is the code to make the results. Depending on the points they got from picking certain books the output can vary. //
+
+		if (u) {
+			points = points +1;
+		}
+
+		if (2<points<5) {
+			alert("You are a scorpio!");
+		}
+
+		if (5<points<8 ) {
+			alert("You are a leo");
+		}
+
+
+		if (8<points<11) {
+			alert("You are a capicorn");
+		}
+
+		if (11<points<14) {
+			alert("You are a aquarius");
+		}
+
+		if (14<points<17) {
+			alert("You are a libra");
+		}
+		if (17<points<20) {
+			alert("You are a gemini");
+		}
+
+		if (20<points<23) {
+			alert("You are a aries");
+		}
+
+		if (24<points<27) {
+			alert("You are a virgo");
+		}
+
+		if (27<points<30) {
+			alert("You are a sagitarius");
+		}
+
+		if (30<points<33) {
+			alert("You are a taurus");
+		}
+
+		if (33<points<37) {
+			alert("You are a pisces ");
+		}
+
+
+		if (37<points<49) {
+			alert("You are a cancer");
+		}
+}
+
+
+
+</script>
+</html>

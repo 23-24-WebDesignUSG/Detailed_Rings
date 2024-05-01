@@ -1,0 +1,57 @@
+/*This makes all the text shown throughout the website white and have the font of monospace.*/
+
+.text{
+color:white;
+font-family: monospace;
+}
+
+
+/* This code defines the properties/styles of the first photo that is shown. 
+	the animation*/
+
+/*This keyframe allows a this animation to occur. In which a photo would change to another photo and so forth until all photos are shown. When this happens the whole process starts over again and again. */
+@keyframes zodiacphotos {
+	0% {background-image: url("aries.jpg"); width: 225px; height: 225px;}
+	2% {animation-delay: 10s}
+	4% {background-image: url("taurus.jpg"); width:183px; height:275px;}
+	6% {animation-delay: 10s}
+	8% {background-image: url("gemini.jpg"); width:262px; height:193px;}
+	10% {animation-delay: 10s}
+	12% {background-image: url("cancer.jpg"); width: 225px; height:225px;}
+	14% {animation-delay: 10s}
+	16% {background-image: url("leo.jpg"); width:260px; height:194px;}
+	18% {animation-delay: 10s}
+	20% {background-image: url("images.jpg"); width:168px; height:300px;}
+	22% {animation-delay: 10s}
+	24% {background-image: url("libra.jpg"); width:540px; height:360px;}
+	26% {animation-delay: 10s}
+	28% {background-image: url("scorpio.jpg"); width:225px; height:225px;}
+	30% {animation-delay:10s} 
+	32% {background-image: url("sagittarius.jpg"); width:300px; height:168px;}
+	34% {animation-delay:10s}
+	36% {background-image: url("capricorn.jpg"); width:225px; height:225px;}
+	38% {animation-delay:10s}
+	40% {background-image: url("aquarius.jpg"); width:194px; height: 259px;}
+	42% {animation-delay: 10s}
+	44% {background-image: url("pisces.jpg"); width:183px; height:275px;}
+	46% {animation-delay: 10s}
+}
+
+/* This code defines the properties/styles of the first photo that is shown in 
+	the animation*/
+.zodiac {
+
+	background-image: url("zodiac.jpg");
+	image-style:center;
+	height:225px;
+	width: 225px;
+	animation-name:zodiacphotos;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+
+
