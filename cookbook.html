@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="cookbook.css">
+</head>
+<center>
+<!--h1 is the main header-->
+<h1><u> Make Your Own Cookbook </h1></u>
+<!--h3 is smaller text just like subtext is a smaller size than a main header--> 
+<h3> Nora. G </h3>
+<!--This is code to add the main photo in this website that is below the main header-->
+<img src="cookintro.jpg">
+<!--h2 is subtext font size -->
+<h2><u> Breakfast Ideas </u></h2>
+
+<!--This div class allows the content for the breakfast section to be in a grey box-->
+
+<div class="information">
+<!--This is code for internal links. Once they are clicked it allows someone to access different parts of the website-->
+<a href="#benedict"> <h5>Sausage & Hash Brown Casserole</h5></a>
+<a href="#orange"> <h5>Orange Scones</h5></a>
+<a href="#bananabread"> <h5>Banana Bread</h5></a>
+</div>
+
+<br>
+<br>
+
+<h2 id="benedict"> </h2>
+
+<div class="receipt1">
+<div class="text">
+</div>
+
+<h3><u> Sausage & Hash Brown Casserole </h3></u>
+<!--This div class allows the recipe to show up in a darker gray box-->
+<div class="subtext">
+<br>
+<br>
+<img src="eggs.jpg" width="300px" height="300px">>
+
+<br>
+<!--h5 font is really similar to the size of a paragraph tag-->
+<h5>Preparation time: 10 minutes </h5>
+
+<h5>Cook time: around 1 hour and 5 minutes </h5>
+
+<p> Rate this recipe </p>
+
+<!--This is the code that allows someone to be able to rate the recipe. They can click the amount of stars they want to give the recipe-->
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+		
+		<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<!--Once someone clicks either one of this buttons it has a different outcome. For the first one depending on how they rate a recipe it would alert them on what they rated a recipe. This is similar to the add and remove button. Some clicks add to add the recipe to "cookbook" and to remove it they can just click the remove recipe. When either remove or add is clicked the person is alerted on the action they just took-->
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4><u> Ingredients</u></h4>
+
+<!--This div class allows the font for this list to be slightly bigger and more readable-->
+<div class="ingredients">
+<!--Li is used to make a list-->
+<li>Vegetable oil spray</li>
+<li>1 pound loose breakfast sausage</li>
+<li>1 tablespoon extra virgin olive oil, or as needed></li>
+<li> 1 small white onion, cut into ½-inch dice</li>
+<li> One 32-ounce container frozen diced hash brown potatoes</li>
+<li> 8 large eggs</li>
+<li> 1 cup heavy cream</li>
+<li> ½ cup milk</li>
+<li> 1 teaspoon garlic powder</li>
+<li> ½ teaspoon sweet paprika</li>
+<li> Pinch is ground sage</li>
+<li> 1 teaspoon kosher salt</li>
+<li> ½ teaspoon ground white pepper</li>
+<li> 2 cups grated sharp Cheddar cheese (about 8 ounces)</li>
+<li> ¼ cup minced chives</li>
+</div>
+
+<h4> <u>Instructions </u></h4>
+<!--Ol is used to make the list an ordered list -->
+<ol>
+<!--Just like the ingredient div class the instruction div class serves the same purpose. The font on this one is just slighty bigger than the ingredient div class-->
+<div class="instructions">
+<li>Preheat the oven to 375°F. Spray a 9 x 13-inch baking dish with vegetable oil.</li>
+<br>
+<li> Line a plate with paper towels. In a large skillet, cook the sausage over medium heat until browned, about five minutes, breaking it up with a side of a spoon. Use a slotted spoon to transfer the sausage to the paper towels. If there is very little oil left behind in the pan, add some olive oil. Sauté the onion until translucent, about five minutes. Stir in the hash brown potatoes and cook until the potatoes are tender, stirring occasionally, about eight minutes. Stir in the reserved a sausage. Remove the pan from heat.</li>
+<br>
+<li>In a large bowl, whisk together the eggs, cream, milk, garlic powder, paprika, sage, salt, and white pepper. Whisk in the Cheddar. Stir in the sausage/hash browns mixture.</li>
+<br>
+<li>
+ Pour the mixture into the prepared baking dish. </li>
+ <br>
+<li> Bake until the top is browned and the center is set, which is around 45 minutes.If the top becomes brown before the center is full cooked cover dish with foil.</li>
+<br>
+<li>Remove from the oven if wanted sprinkle the chives on top before serving. </li>
+<br>
+<li>The casserole is best served the day it is baked. Store the leftovers in a container that is covered in the refrigerator. Store it for no longer than two days.</li>
+</ol>
+</div>
+</div>
+
+<h2 id="orange"> </h2>
+<div class="receipt2">
+<div class="text">
+</div>
+
+<h3><u> Orange Scones </h3></u>
+<div class="subtext">
+	<br>
+	<br>
+<img src="orange.jpg" width="300px" height="300px">>
+
+<br>
+
+<h5>Preparation time: 25 minutes </h5>
+
+<h5>Cook time: around 15 minutes  </h5>
+
+<h5>Cool time: 5 minutes </h5>
+
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+		<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4><u>Ingredients </h4></u>
+<div class="ingredients">
+
+<li> 2 cups of all purpose flour, plus more for forming the scones</li>
+<li> 1 1/2 tsp baking powder</li>
+<li> 1 1/2 tsp of baking Soda </li>
+<li> 1/2 tsp of kosher salt </li>
+<li> 1 large egg</li>
+<li> 3/4 cup of sour cream </li>
+<li> 1/2 cup of sugar </li>
+<li> 1 tsp grated orange zest </li>
+<li> 12 tbsp of unsalted butter cut into 1-inch cubes and frozen </li>
+</div> 
+
+<h4> <u>Maple-Orange Glaze Ingredients </h4></u>
+<div class="ingredients">
+
+<li> 1 1/2 cups of powder sugar</li>
+<li> 1 teaspoon of grated orange zest</li>
+<li> 3 tablespoon unsalted butter,that is melted </li>
+<li> 3 tablespoon of fresh orange juice </li>
+<li> 1 tsp of vanilla extract </li>
+<li> 1/2 tsp pure maple syrup </li>
+</div>
+
+<h4><u> Instructions for Dough </h4></u>
+<ol>
+<div class="instructions">
+
+<li>Preheat the oven to 400 degrees F. Line a baking sheet with parchment paper. </li><br>
+
+<li>In a large bowl, whisk together the flour, baking Soda, baking powder and salt. Set aside.</li><br>
+
+<li>In a small bowl, lightly whisk the egg. Whisk in the sour cream. Set aside. </li>
+<br>
+
+<li>In another small bowl, place the sugar and orange zest. Using the back of a spoon , work the zest into the sugar until well combined. Stir the sugar mixture into the flour mixture. Add the frozen butter and, using your fingers or pastry blender, blend until the mixture is pebble like. Stir in the egg/sour cream mixture until the dough Forms a ball. Divide the dough in half.</li><br>
+
+<li>Place one dough portion on a lightly floured surface and press it into a 6-inch round. (It should be about 1 inch think) Cut the round into 6 wedges. Arrange the wedges 1 inch apart on the prepared baking sheet. Repeat with the second dough portion. </li><br>
+
+<li>Bake until golden, 13 to 15 minutes. Cool on the baking sheet for 5 minutes, then transfer the scones to a wire rack set on a baking sheet. </li>
+</ol>
+
+
+<h4><u>Instructions for glaze </h4></u>
+
+<ol>
+<div class="instructions">
+<li>n a medium bowl, stir together the powdered sugar and orange zest. Stir in the melted butter, orange juice, vanilla and maple syrup, mixing until smooth.</li>
+<li>
+Spoon the glaze over the scones. Serve the scones warm or at room temperature. Once glazed,the scones are best eaten the same day. Store unglazed leftovers in an airtight container at room temperature for up to 3 days~</li>
+</ol>
+</div>
+</div>
+
+
+<h2 id="bananabread"> </h2>
+<div class="receipt2">
+<div class="text">
+</div>
+<h3><u> Banana Bread Recipe </h3></u>
+<div class="subtext">
+<br>
+<br>
+<img src="banana.jpg" width="300px" height="300px">>
+<br>
+
+<h5>Total time 1 hour and 30 minutes </h5>
+
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+		<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4> <u>Ingredients </h4></u>
+<div class="ingredients">
+
+<li>1/2 cup unsalted butter, melted, plus more at room temperature for greasing the pans </li>
+<li>3 cups all-purpose flour</li>
+<li>2 teaspoons baking powder</li>
+<li>1 1/2 teaspoons baking soda</li>
+<li>1 1/2 teaspoons kosher salt</li>
+<li>2 cups mashed ripe bananas</li>
+<li> 1 cup lightly packed brown sugar </li>
+<li> 1/2 cup whole milk </li>
+<li> 2 large eggs </li>
+<li> 2 teaspoons pure vanilla extract </li>
+<li> 1/4 cup chocolate-hazelnut spread, like Nutella </li>
+</div>
+
+<h4><u> Instructions </h4></u>
+<div class="instructions">
+<ol>
+<li>
+Preheat the oven to 350°F / 175°C. Generously butter two 8 x 4-inch / 20 x 10 cm loaf pans, then line them with buttered parchment paper. </li><br>
+<li>
+In a large bowl, whisk together the flour, baking powder, baking soda, and salt. In a separate bowl, combine the bananas, brown sugar, melted butter, milk, eggs, and vanilla extract and mix well with a wooden spoon. </li><br>
+<li>
+Add the dry ingredients to the banana mixture and stir just until smooth. </li> <br>
+<li>
+Heat the chocolate-hazelnut spread in the microwave for about 20 seconds to soften, which makes it easier to swirl into the batter. </li><br>
+<li>
+Pour half of the batter into one of the prepared pans and set aside for the plain loaf. Pour half of the remaining batter into the other prepared pan, then drizzle half of the chocolate-hazelnut spread over the batter. </li> <br>
+
+<li>Pour the remaining batter into the pan. Drizzle the remaining spread over the top and run a knife all the way through the batter in a zigzag pattern to distribute.</li><br>
+<li>
+Bake until a tester comes out clean, about 50 minutes. Let the loaves cool in the pans for about 10 minutes, then remove from the pans and set on a wire rack to cool.</li><br>
+</ol>
+</div>
+</div>
+
+<h2><u> Lunch Ideas </h2></u>
+
+<div class="information">
+</h4>
+<a href="#salad"> <h5>Curry Chicken Salad</h5></a>
+<a href="#tomatosandwiches"><h5>Grilled Havarti, Tomato & Basil Sandwiches </h5></a>
+<a href="#chicken"> <h5>Chicken Pesto Wraps</h5></a>
+</div>
+<br>
+
+<h2 id="salad">
+<h3><u> Curry Chicken Salad </h3></u>
+<div class="subtext">
+<br>
+<br>
+<img src="salad.jpg" width="300px" height="300px"> 
+
+<h5>Preparation time: 25 minutes </h5>
+
+<h5>Cook time: around 15 minutes  </h5>
+
+<h5>Cool time: 5 minutes </h5>
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+		<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4> <u>Ingredients </h4></u>
+<div class="ingredients">
+<li> 6 cups shredded meat from store-bought rotisserie chicken or poached chicken breasts </li>
+<li>One 8-ounce can diced water chestnuts, drained </li>
+<li>1 cup chopped or sliced almonds, and are toasted </li>
+<li>1/2 cup minced chives</li>
+<li>2 cups mayonnaise, preferably Hellmann’s mayonnaise </li>
+<li>2 tablespoons soy sauce</li>
+<li>3 tablespoons curry powder </li>
+<li> 1/2 teaspoon garlic powder </li>
+<li> 1/2 teaspoon kosher salt </li>
+<li> 1/2 teaspoon ground white pepper </li>
+<li>One 1-pound loaf hearty bread, cut into 1/2-inch-thick slices and toasted</li>
+<li> Optional: Endive Leaves </li>
+</div>
+
+
+<h4> <u>Instructions </h4></u>
+<ol>
+<div class="instructions">
+<li>In a large bowl, combine the chicken, water chestnuts, toasted almonds, and chives (hold back a few almonds and chives for garnish). Toss to combine evenly, then set aside.</li>
+<br>
+<li>
+In a medium bowl, whisk together the mayonnaise, soy sauce, curry powder, garlic powder, salt, and white pepper. Pour over the chicken and stir until well combined.</li><br>
+<li>
+Cover and refrigerate for 2 hours before serving. Sprinkle the chicken salad with the reserved almonds and chives and serve with toast and endive leaves (if using).</li><br>
+<li>Store in a covered container in the refrigerator for up to 3 days.
+Toasting Nuts & Sesame Seeds. </li> </ol>
+
+
+
+<h4><u>Toasting Nuts & Sesame Seeds:</h4></u>
+
+<h4><u> Toast On The Stovetop </h4></u>
+
+<div class="instructions">
+Place the nuts or seeds in a single layer in a dry skillet over medium heat and toast, stirring frequently, until lightly browned and fragrant, 4 to 8 minutes. Immediately transfer the nuts or seeds to a plate to cool.</h5>
+</div>
+<br>
+<h4><u>Toast in the Oven: </u></h4>
+
+<div class="instructions">
+Preheat the oven to 350°F. Spread the nuts or seeds on a rimmed baking sheet and toast in the oven, shaking the pan once or twice, until lightly browned and fragrant, 10 to 12 minutes. Immediately transfer the nuts or seeds to a plate to cool.
+</div>
+<br>
+</div>
+
+<h2 id="tomatosandwiches">
+<h3><u>Grilled Havarti, Tomato & Basil Sandwiches</h3></u>
+<div class="subtext">
+<br>
+<br>
+<img src="tomato.webp" width="300px" height="300px"> 
+
+<h5>Preparation time: 10 minutes </h5>
+
+<h5>Cook time: around 8 minutes  </h5>
+
+<h5>Cool time: 5 minutes </h5>
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+		<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4><u>Ingredients </h4></u>
+<div class="ingredients">
+
+<li>1/2 cup mayonnaise possibly hellmann's mayonnaise </li>
+<li>8 slices french or country bread</li>
+<li>8 slices havarti cheese </li>
+<li> 1 vine ripened tomato cut into 8 slices </li>
+<li> 1 bunch fresh basil torn </li>
+</div>
+
+<div class="instructions">
+
+<h4><u>Instructions</h4></u>
+
+<ol>
+
+<li>Spread the mayonnaise on both sides of each slice of bread.</li><br>
+
+<li>On 4 slices of bread, layer 1 slice of cheese, 2 tomato slices, basil leaves and another slice of cheese. Top each with remaining slices of bread.</li><br>
+
+<li>Heat a large skillet over medium heat.</li> <br>
+
+<li>Toast the sandwiches until browned on both sides and cheese melted, 4 to 7 minutes.</li><br>
+
+<li>Flip sandwiches halfway through.</li><br>
+
+
+<li>Slice each sandwich in half and serve immediately.</li><br>
+</div>
+
+
+<h2 id="chicken">
+<h3><u> Chicken Pesto Wraps </h3></u>
+<div class="subtext">
+<br>
+<br>
+<img src="pesto.jpg" width="300px" height="300px"> 
+
+<h5>Total Time is 20 minutes </h5>
+
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+			<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4> <u>Ingredients </h4></u>
+
+<div class="ingredients">
+
+<li>1/2 pound ground chicken </li>
+<li> 1 tablespoon canola oil </li>
+<li> 1/4 cup sun-dried tomato pesto </li>
+<li> 2 warmed flour tortillas around 8 inches</li>
+<li> 1/2 cup shredded part-skim mozzarella cheese </li>
+<li> 8 cut in half grape tomatoes </li>
+<li> 2 slices red onion sparated into rings </li>
+<li> 1 cup shredded lettuce </li>
+</div>
+<h4><u> Instructions </h4></u>
+
+<ol>
+<div class="instructions">
+<li> In a big skillet, under a medium heat cook chicken in oil  for about 5-6 minutes or until the chicken is no longer pink. Then drain the oil. </li><br>
+<li> In a small bowl, combine the chicken and pesto. Spoon chicken mixture over each tortilla; layer with cheese, tomatoes, onion and lettuce; then roll up. </li>
+</ol>
+</div>
+</div>
+<h2><u> Dinner Ideas </h2></u>
+<div class="information">
+</h4>
+<a href="#sourcream"> <h5>Sour Cream Chicken Enchiladas</h5></a>
+<a href="#gobi"><h5> Aloo Gobi Masala </h5></a>
+<a href="#indian"> <h5>Chole</h5></a>
+</div>
+
+<h2 id="sourcream">
+<h3> <u>Sour Cream Chicken Enchiladas </h3></u>
+<div class="subtext"> 
+<br>
+<br>
+<img src="enchiladas.jpg" width="300px" height="300px">
+<br>
+
+<h5>Preparation time: 20 minutes </h5>
+
+<h5>Cook time: around 35 minutes  </h5>
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4><u> Ingredients</h4></u>
+
+<div class="ingredients">
+
+<li>Vegetable oil spray</li>
+<li>Two 10-ounce cans mild green enchilada sauce</li>
+<li>One 10.5-ounce can condensed cream of chicken soup</li>
+<li>One 8-ounce container sour cream</li>
+<li>4 cups shredded meat from 1 store-bought rotisserie chicken or Perfect Roast Chicken</li>
+<li>One 4-ounce can diced green chiles</li>
+<li>One 14-ounce bag grated mozzarella cheese (this is about 3 1/2 cups) </li>
+<li>Ten 10-inch soft flour tortillas </li>
+<li>1 vine-ripened tomato, cut into 1/4-inch dice</li>
+<li>1/2 cup chopped fresh cilantro</li>
+<li>1 lime, cut into wedges</li>
+<li>Mexican Rice or two 5.4-ounce pouches Mexican rice mix, cooked, for serving like Korr.</li>
+<li>Canned charro beans or your favorite seasoned beans, warmed, for serving</li>
+
+</div>
+
+<h4> <u>Instructions </h4></u>
+
+<div class="instructions">
+
+<ol>
+
+<li>Position an oven rack in the top third of the oven and preheat the oven to 350°F.</li><br>
+
+<li>Spray a 9x13x3-inch (deep) baking dish with vegetable oil. </li><br>
+
+<li> In a large bowl, whisk together the enchilada sauce, chicken soup, and sour cream.</li> <br>
+<li>Spread about 1/2 cup of the sauce in the baking dish. </li><br>
+<li> Set aside the remaining sauce.</li><br>
+
+<li>In a medium bowl, combine the chicken and chiles. Toss until well combined. Set aside. </li><br>
+
+<li>Set aside about 2 cups of mozzarella for topping the dish. Put the rest in a medium bowl for ease.</li> <br>
+
+<li>Sprinkle some mozzarella on a tortilla, then add some of the shredded chicken and chiles. </li><br>
+
+<li> Tightly roll up the tortilla and place it seam side down in the prepared pan. Continue with all of the tortillas, chicken, and mozzarella (except for what you’ve reserved for the top), putting the tortillas into the baking dish as they are filled. Push the others up against one another as necessary so that all the filled tortillas fit in a single layer.</li><br>
+
+<li>Pour the remaining sauce over the filled tortillas. Bake for 20 minutes. Remove from the oven and sprinkle the reserved mozzarella on top. Bake until the cheese is melted, about 15 minutes. </li><br>
+
+<li>Serve with chopped tomatoes, cilantro, and lime wedges. Also Mexican rice and warmed charro or any other beans.</li><br>
+
+<li>Store leftovers in a covered container in the refrigerator for up to 4 days. Reheat in a 300°F oven.</li><br>
+</ol>
+</div>
+</div>
+
+
+<h2 id="gobi">
+<h3> <u>Aloo Gobi</h3></u>
+<div class="subtext"> 
+<br>
+<br>
+<img src="aloo.webp" width="300px" height="300px">
+<br>
+
+<h5>Preparation time: 20 minutes </h5>
+
+<h5>Cook time: around 15 mins  </h5>
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+		<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+
+<h4> <u>Ingredients </h4></u>
+<div class="ingredients">
+
+<li> 1 head cauliflower, cut into 1-inch florets </li>
+
+<li> 3 potatoes, peeled and cut into 1-inch chunks </li>
+
+<li> 1 tablespoon olive oil </li>
+
+<li> 1 teaspoon cumin seeds </li>
+
+<li> 2 tomatoes, diced </li>
+
+<li> 1 onion, chopped </li>
+
+<li> 1 teaspoon salt</li>
+
+<li>1 teaspoon curry powder </li>
+</div>
+
+<h4> <u>Instructions </h4></u>
+<div class="instructions">
+
+<p> Step 1 </p>
+
+ Place the cauliflower in a large, microwave-safe dish; cook in microwave on High for 3 minutes. Transfer the cauliflower to a bowl and set aside. Put the potatoes in the dish and cook in the microwave on High for 4 minutes. Pour into the bowl with the cauliflower.
+
+<p> Step 2 </p>
+Heat the olive oil and cumin seeds in a large skillet over medium-high heat until the cumin swells and turns golden brown; stir the onions into the oil and cook about 3 minutes. Add the tomatoes and cook and stir another 3 minutes. Fold the cauliflower and potatoes into the mixture. Season with the curry powder and salt. Continue cooking until completely hot, 3 to 5 minutes. Serve hot. 
+ </div>
+</div>
+
+<h2 id="indian">
+<h3><u> Chole </h3></u>
+<div class="subtext"> 
+<br>
+<br>
+<img src="chole.jpg" width="300px" height="300px">
+<br>
+
+<h5>Preparation time: 15 minutes </h5>
+
+<h5>Cook time: around 1 hour  </h5>
+
+<p> Rate this recipe </p>
+<!--This just defines the photo--> 
+		<label for="check1"><img src="star.jpg"width="30"px height="30"px></label>
+		<input id="check1" type="checkbox" name="recipe" width="30"px height="30"px>
+
+		<label for="check2"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check2" type="checkbox" name="recipe">
+
+		<label for="check3"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check3" type="checkbox" name="recipe">
+
+		<label for="check4"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check4" type="checkbox" name="recipe">
+			<label for="check5"><img src="star.jpg" width="30"px height="30"px></label>
+		<input id="check5" type="checkbox" name="recipe">
+<br>
+<br>
+<button onclick="submit()"> Submit Rating </button>
+<button onclick="add()"> Add this Recipe </button>
+<button onclick="remove()"> Remove this Recipe </button>
+
+<h4><u>Ingredients </h4></u>
+
+<h5> <u>For pressure cooking</u> </h5>
+<div class="ingredients">
+<li> 2 cups chickpeas raw, to be soaked overnight </li>
+<li> 2 bay leaves </li>
+<li>5-6 green cardamom pods </li>
+<li>1 inch cinnamon stick </li>
+<li>4-5 black peppercorn </li>
+<li>2 black tea bags for dark color of chole </li>
+<li>1 teaspoon salt adjust to taste </li>
+<li>5 cups water </li>
+</div>
+
+<h5><u>For the Chole</u> </h5>
+<div class="ingredients">
+<li> 1 – 1 & 1/2 tablespoons oil use any oil of choice </li>
+<li>2 whole cloves </li>
+<li>3/4 cup grated onions or very finely chopped</li>
+<li>2 teaspoons ginger garlic paste </li>
+<li>2 & 1/2 cups pureed tomatoes from 4 medium tomatoes </li>
+<li>3 teaspoons chole masala homemade (recipe above) or store-bought </li>
+<li> 1/2 teaspoon red chili powder or to taste, use Kashmiri red chili powder for less heat</li>
+<li>1/2 teaspoon paprika powder</li>
+<li>3/4 teaspoon cumin powder </li>
+<li>1/2 salt adjust to taste</li>
+</div>
+
+<h5><u> For the garnish</u> </h5>
+<div class="ingredients">
+<li> 1 tablespoon ghee </li>
+<li>1 inch ginger cut into julienne</li>
+<li>1/4 teaspoon garam masala </li>
+<li>1/2 tablespoon crushed kasuri methi also known as dried fenugreek leaves </li>
+<li> 2 tablespoons cilantro chopped </li>
+</div>
+
+<h4><u>Instructions</u> </h4>
+<div class="instructions"> 
+<ol>
+<li>Soak 2 cups of raw chickpeas overnight (or for a minimum of 8 hours) in enough water to cover them. In the morning you should have around 5 cups of chickpeas (they increase in size overnight as they soak). Drain the water in which the chickpeas were soaked.</li><br>
+<li>
+Then transfer the chickpeas to a stovetop pressure cooker and add the whole spices- bay leaves, green cardamom pods, cinnamon stick, and black peppercorns. Also add 2 black tea bags (for color), 5 cups water and 1 teaspoon salt. </li> <br>
+
+<li>
+Close the cooker and cook at high heat for 1 to 2 whistles. Then lower the heat to medium and let the chickpeas cook for another 10 minutes or so. Then remove the cooker from heat and let the pressure release naturally. If using an Instant pot, cook on high pressure for 20 minutes and let the pressure release naturally. </li> <br>
+
+
+<li>
+Once the pressure comes off, remove the tea bags and bay leaves using a pair of tongs. The tea bags are used for color only and don't have an impact on the taste of chole. Set this aside. </li> <br>
+
+<li>
+Heat 1 to 1 & 1/2 tablespoons of oil in a large kadai or pot on medium heat. Add 2 whole cloves and grated onions to the pot. Cook the onions until the raw smell goes away and they are light golden brown in color, this takes around 7 to 8 minutes. </li><br>
+
+<li>Then add the ginger garlic paste and cook until the raw smell goes away, around 2 minutes. </li> <br>
+<li>
+Now, add the tomato puree and stir. Cover the pot and cook the tomatoes for around 15 minutes on medium-low heat, stir every 2 to 3 minutes in between. This step of cooking the tomatoes is important. </li><br>
+<li>
+Once the tomatoes are done, add the spices- chole masala, red chili powder, paprika, cumin powder and 1/2 teaspoon salt. Stir and cook the spices for a minute or two.</li><br>
+
+<li>Then add the boiled chickpeas, (along with the water in which they were boiled) to the pot and stir until the chickpeas are well combined with the masala. Add an extra 1/2 cup water here and then cover the pan and let the chole simmer on medium-low heat for 30 minutes. Simmering on how heat is what will give this chole so much flavor! Mash some of the chickpeas with the back of your spatula while they are simmering.</li><br>
+
+<li>The gravy will thicken after 30 minutes, so if you prefer more gravy in your chole, add more water than what is mentioned in the recipe.</li><br>
+
+<li>
+Then for the final step, heat 1 tablespoon of ghee in a small pan on medium heat. Once hot, add the ginger juliennes and fry until the juliennes are golden brown in color but do not burn them. Add the ginger juliennes to the chole, stir and switch off the heat.</li><br>
+
+
+<li>
+Add garam masala, kasuri methi and chopped cilantro and serve the chole hot with rice, bhatura, parathas and more! </li><br>
+</ol>
+</div>
+</div>
+
+<h3><u> Citations/ sources for the recipes</u> </h3>
+<div class="information">
+
+<!--a href allows these links to be hyperlink. Thus when clicked takes the person to the website-->
+<a href="https://www.vecteezy.com/free-vector/star-icon">
+https://www.vecteezy.com/free-vector/star-icon
+</a>
+<br>
+<br>
+<a href="https://www.copymethat.com/r/hZ3sRgKeL/magnolia-table-sausage-hash-brown-casser/ 
+">
+https://www.copymethat.com/r/hZ3sRgKeL/magnolia-table-sausage-hash-brown-casser/ 
+</a>
+<br>
+<br>
+<a href="https://fnsharp.com/blogs/fns/greek-cooking-tools">
+https://fnsharp.com/blogs/fns/greek-cooking-tools 
+</a>
+<br>
+<br>
+<a href="https://www.southernliving.com/recipes/sausage-hashbrown-breakfast-casserole">
+https://www.southernliving.com/recipes/sausage-hashbrown-breakfast-casserole 
+</a>
+<br>
+<br>
+<a href="https://happyhappynester.com/fresh-orange-scone-recipe/"> 
+https://happyhappynester.com/fresh-orange-scone-recipe/ 
+</a>
+<br>
+<br>
+<a href="https://thegraceingrief.blog/2019/03/13/orange-scones-by-joanna-gaines/">
+https://thegraceingrief.blog/2019/03/13/orange-scones-by-joanna-gaines/
+</a>
+<br>
+<br>
+<a href="https://www.simplyrecipes.com/recipes/banana_bread/">
+https://www.simplyrecipes.com/recipes/banana_bread/ 
+</a>
+<br>
+<br>
+<a href="https://magnolia.com/blog/recipe/8ae85e2f-f4c2-4de7-93f9-1864f3bf604b/curry-chicken-salad/">
+https://magnolia.com/blog/recipe/8ae85e2f-f4c2-4de7-93f9-1864f3bf604b/curry-chicken-salad/ 
+</a>
+<br>
+<br>
+<a href="https://www.cookwithmanali.com/punjabi-chole-chickpeas-curry/#wprm-recipe-container-36333">
+https://www.cookwithmanali.com/punjabi-chole-chickpeas-curry/#wprm-recipe-container-36333 
+</a>
+<br>
+<br>
+<a href="https://pinchofparsley.com/2018/06/06/grilled-havarti-tomato-basil-sandwich/">
+https://pinchofparsley.com/2018/06/06/grilled-havarti-tomato-basil-sandwich/
+</a>
+<br>
+<br>
+<a href="https://www.tasteofhome.com/recipes/chicken-pesto-wraps/">
+https://www.tasteofhome.com/recipes/chicken-pesto-wraps/  
+</a>
+<br>
+<br>
+<a href="https://magnolia.com/blog/recipe/b378de2e-bf93-4957-a135-2dd22c3216ed/sour-cream-chicken-enchiladas/">
+https://magnolia.com/blog/recipe/b378de2e-bf93-4957-a135-2dd22c3216ed/sour-cream-chicken-enchiladas/ 
+</a>
+<br>
+<br>
+<a href="https://www.allrecipes.com/recipe/212882/aloo-gobi-masala-cauliflower-and-potato-curry/">
+https://www.allrecipes.com/recipe/212882/aloo-gobi-masala-cauliflower-and-potato-curry/ 
+</a>
+<br>
+<br>
+</div>
+</center>
+</body>
+
+<script type="text/javascript">
+/*The object in this website is "Cookbook" so below are some attributes associated with this object*/
+	const Cookbook = { 
+		name : "",
+		ratings:0,
+		addrecipe:0,
+		removerecipe:0,
+		ingredients:"",
+		instructions:""
+	};
+
+function submit() {
+/*This function allows someone to have different results depending on how they rate a recipe*/
+
+/*This is used to keep check of when a star is clicked the person gets a point and so forth*/
+if (document.getElementById("check1").checked) {
+	Cookbook.ratings=Cookbook.ratings +1;
+
+}
+
+
+if (document.getElementById("check2").checked) {
+Cookbook.ratings=Cookbook.ratings +1;
+
+
+}
+
+if(document.getElementById("check3").checked) {
+Cookbook.ratings=Cookbook.ratings +1;
+
+
+}
+
+
+if (document.getElementById("check4").checked) {
+Cookbook.ratings=Cookbook.ratings +1;
+
+
+}
+
+
+if (document.getElementById("check5").checked) {
+Cookbook.ratings=Cookbook.ratings +1;
+
+
+}
+
+
+/* This part of the function allows someone to get an alert for clicking the amount of star/s they click.*/ 
+
+if (Cookbook.ratings == 1) {
+	alert("you gave this recipe one star");
+
+}
+
+
+if (Cookbook.ratings == 2) {
+	alert("you gave this recipe two stars");
+}
+
+
+if (Cookbook.ratings == 3) {
+	alert("you gave this recipe three stars");
+}
+
+
+if (Cookbook.ratings == 4) {
+	alert("you gave this recipe four stars");
+
+}
+}
+
+function add() {
+/*This function is used to just alert someone that a certain recipe has been added to their cookbook.This happens after they had clicked the "add this recipe" button*/  
+	alert("This recipe has been added to your cookbook!!");
+
+}
+
+function remove(){
+
+/*This function is used to just alert someone that a certain recipe has been removed from their cookbook.T his happens after they had clicked the "remove this recipe" button*/  
+
+	alert ("This recipe has been removed from your cookbook"); 
+
+}
+
+</script>
+</html>

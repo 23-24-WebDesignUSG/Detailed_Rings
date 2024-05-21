@@ -1,0 +1,71 @@
+h1 {
+/* This just allows the main header to have a font size of 56px and a color of darkgray*/
+	font-size: 56px;
+	color:darkgray;
+}
+
+
+h2 {
+/*This allows the subtext header to have a font size of 54px and a color of darkgray*/
+	font-size:45px;
+	color:darkgray;
+
+}
+
+p{
+
+/*This allows the paragraph tags in the html code to have a font size of 18px and a color of dark gray*/
+	font-size:18px;
+	color:darkgrey;
+
+}
+
+h3 {
+
+/*This allows the smaller header tags, h3, to have a font size of 38px and a color of dark gray*/
+	font-size:38px;
+	color:darkgray;
+
+}
+
+h4 {
+
+/*This allows the smaller header tags, h4, to have a font size of 30px and a color of dark gray*/
+	font-size: 30px;
+	color:darkgray;
+
+
+}
+
+h5{
+
+/*This allows the smaller header tags, h5, to have a font size of 20px and a color of black*/
+	font-size: 20px;
+
+}
+
+
+/*All of this classes are just used to add font-sizes to different parts of code. They are also used to make text be inside a box.*/
+.information {
+	border: 5px solid lightgray;
+
+
+}
+
+.subtext{
+	border: 5px solid darkgray;
+
+}
+
+.ingredients {
+	font-size: 18px;
+
+}
+
+.instructions {
+	font-size: 20px;
+
+
+}
+
+
