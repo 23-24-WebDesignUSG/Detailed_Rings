@@ -1,0 +1,50 @@
+/* The css code below  basically makes a light blue box as the background to the main text header*/
+.intro {
+	padding: 50px;
+	margin: 75px;
+	background-color:lightblue;
+	height: 100px;
+	transition:font-size 2s;
+	transition-delay: 1s;
+	transition-duration: 8s;
+animation: words 5s infinite;
+}
+
+/*The keyframe code allows the text to enlarge and become smaller on its own and will repeat endlessly. */
+
+@keyframes words {
+  50% {font-size: 40px;}
+}
+
+/*The style below is the style that allows a light blue text box that text can go inside of*/
+.information {
+	border: 5px solid lightblue;
+  margin:75px;
+  padding: 25px;
+
+}
+
+
+.website{
+  opacity: 50%;
+  display: inline-block;
+  transition: opacity 2s, border 2s;
+}
+
+.website:hover {
+  opacity: 100%;
+  border: white;
+}
+
+
+/*This is the style for the internal links*/
+.sub{
+  border: solid 5px lightgray;
+  margin: 75px;
+
+}
+
+.subtext {
+	font-size: 30px;
+
+}
